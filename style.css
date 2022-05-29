@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.matrix img {
+img {
   width: 100%;
 }
 .matrix .matrix__more-inf {
@@ -118,17 +118,17 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
-button.todo-section__delete img {
+.todo-section__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.todo-section__delete img:hover {
+.todo-section__delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.editMode input[type=text] {
+ul .editMode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul .editMode label {
   display:none;
 }
