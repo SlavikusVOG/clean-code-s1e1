@@ -7,45 +7,45 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body>
-  <div class="aaa">
+  <div class="matrix">
     <img src="./eisenhower-matrix.jpg">
-    <a class="aaa__more-inf"
+    <a class="matrix__more-inf"
         href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="centered-main-page-element__topSectionForAddingElementToList">
-      <label for="centered-main-page-element__new-task">Add Item</label>
-      <div class="centered-main-page-element__task-row-wrapper">
-        <input id="centered-main-page-element__new-task"class="centered-main-page-element__task" type="text">
+  <div class="todo-section">
+    <p id="todo-section__add-element">
+      <label for="todo-section__new-task">Add Item</label>
+      <div class="todo-section__task-row-wrapper">
+        <input id="todo-section__new-task"class="todo-section__task" type="text">
         <button>Add</button>
       </div>
     </p>
     <h3>Todo</h3>
-    <ul id="centered-main-page-element__incompleteTasks">
+    <ul id="todo-section__incompleteTasks">
       <li>
         <input type="checkbox">
-        <label class="centered-main-page-element__task">Pay Bills</label>
-        <input type="text" class="centered-main-page-element__task">
-        <button class="centered-main-page-element__edit">Edit</button>
-        <button class="centered-main-page-element__delete"><img src="./remove.svg"></button>
+        <label class="todo-section__task">Pay Bills</label>
+        <input type="text" class="todo-section__task">
+        <button class="todo-section__edit">Edit</button>
+        <button class="todo-section__delete"><img src="./remove.svg"></button>
       </li>
       <li class="editMode"><input type="checkbox">
-        <label class="centered-main-page-element__task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="centered-main-page-element__task">
-        <button class='centered-main-page-element__edit'>Save</button>
-        <button class="centered-main-page-element__delete"><img src="./remove.svg"></button>
+        <label class="todo-section__task">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="todo-section__task">
+        <button class='todo-section__edit'>Save</button>
+        <button class="todo-section__delete"><img src="./remove.svg"></button>
       </li>
     </ul>
     <h3>Completed</h3>
     <ul id="completed-tasks">
       <li>
         <input type="checkbox" checked>
-        <label class="centered-main-page-element__task">See the Doctor</label>
-        <input type="text" class="centered-main-page-element__task">
-        <button class="centered-main-page-element__edit">Edit</button>
-        <button class="centered-main-page-element__delete"><img src="./remove.svg"></button>
+        <label class="todo-section__task">See the Doctor</label>
+        <input type="text" class="todo-section__task">
+        <button class="todo-section__edit">Edit</button>
+        <button class="todo-section__delete"><img src="./remove.svg"></button>
       </li>
     </ul>
   </div>

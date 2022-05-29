@@ -4,34 +4,34 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix img {
   width: 100%;
 }
-.aaa .aaa__more-inf {
+.matrix .matrix__more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.centered-main-page-element__task {
+.todo-section__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.centered-main-page-element__task-row-wrapper {
+.todo-section__task-row-wrapper {
   display: flex;
 }
 ul {
@@ -58,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="centered-main-page-element__new-task"] {
+label[for="todo-section__new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,11 +84,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="centered-main-page-element__new-task"] {
+label[for="todo-section__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#centered-main-page-element__new-task {
+input#todo-section__new-task {
   width: 318px;
 }
 
@@ -118,12 +118,12 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
-button.centered-main-page-element__delete img {
+button.todo-section__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.centered-main-page-element__delete img:hover {
+button.todo-section__delete img:hover {
   transform: rotateZ(0);
 }
 
