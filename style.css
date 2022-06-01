@@ -130,7 +130,7 @@
   transition: transform 200ms ease-in;
 }
 .completed-tasks__delete.delete.button > .image:hover,
-incomplete_tasks__delete.delete.button > .image:hover {
+.incomplete_tasks__delete.delete.button > .image:hover {
   transform: rotateZ(0);
 }
 
