@@ -37,6 +37,7 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
+    checkBox.classList="input";
     editInput.type="text";
     editInput.className="incomplete-tasks__task task input";
 
@@ -56,7 +57,7 @@ var createNewTaskElement=function(taskString){
     listItem.appendChild(editInput);
     listItem.appendChild(editButton);
     listItem.appendChild(deleteButton);
-    listItem.classList="incomplete-tasks-item item";
+    listItem.classList="incomplete-tasks_item item";
     return listItem;
 }
 
